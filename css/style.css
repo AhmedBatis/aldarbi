@@ -17,3 +17,7 @@
   background-color: yellow;
   border: white solid 5px;
 }
+
+.li-head-list {
+  display: inline;
+}
