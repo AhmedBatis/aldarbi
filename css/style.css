@@ -12,18 +12,22 @@
   }
 
    .div-hero-section {
+      height: 30px;
       background-color: #ffa700ff;
    }
 
    .div-header-section {
+      height: 30px;
       background-color: #00ffffff; 
    }
 
    .div-statistics-section {
+      height: 30px;
       background-color: #91eb7eff;   
    }
 
    .div-identity-section {
+      height: 30px;
       background-color: #d587ccff; 
    }
 
