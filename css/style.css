@@ -28,3 +28,7 @@
 .li-head-list {
   display: inline;
 }
+
+.img-header {
+  height: 20vh;
+}
