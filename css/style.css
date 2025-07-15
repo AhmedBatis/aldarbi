@@ -16,13 +16,14 @@ body, html {
     height: 100vh;
     display: flex;
     flex-direction: column;
+    background-color: #ffa700ff;
 }
 
 /* Header section */
 .div-header-section {
     height: 128px;
     width: 100%;
-    background-color: #f0f0f0;
+    background-color: #00ffffff;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -40,7 +41,7 @@ body, html {
 .div-statistics-section {
     height: 339px;
     width: 50%;
-    background-color: #cde4f7;
+    background-color: #91eb7eff;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -50,7 +51,7 @@ body, html {
 .div-identity-section {
     height: 339px;
     width: 50%;
-    background-color: #f7e4cd;
+    background-color: #d587ccff;
     display: flex;
     align-items: center;
     justify-content: center;
