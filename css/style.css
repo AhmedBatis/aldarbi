@@ -8,4 +8,5 @@
 .header-section {
   height: 100vh;
   background-color: red;
+  border: blue solid 5px;
 }
