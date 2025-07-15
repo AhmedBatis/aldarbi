@@ -5,4 +5,7 @@
   box-sizing: border-box;
 }
 
-
+.header-section {
+  height: 100vh;
+  background-color: red;
+}
