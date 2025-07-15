@@ -16,6 +16,7 @@
    }
 
    .div-header-section {
+      position: relative;
       height: 30px;
       background-color: #00ffffff; 
    }
