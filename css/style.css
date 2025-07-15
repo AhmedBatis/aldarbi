@@ -6,7 +6,8 @@
 }
 
 .header-section {
-position: static;
+display: flex;
+flex-direction: column;
 background-color: Grey;
 height: 100vh;
 
