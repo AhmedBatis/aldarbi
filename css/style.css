@@ -22,8 +22,10 @@
 
 .div-header-img {
   width: 50%;
+  height: 10vh;
+  width: 50%;
   background-color: green;
-  border: grey solid 5px;
+  border: white solid 5px;
 }
 
 .li-head-list {
