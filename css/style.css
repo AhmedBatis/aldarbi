@@ -10,21 +10,15 @@
   height: 100vh;
   background-color: red;
   border: blue solid 5px;
+  flex-direction: row;
 }
 
 .div-header-nav {
-  text-align: center;
-  height: 10vh;
-  width: 50%;
-  background-color: yellow;
-  border: white solid 5px;
+
 }
 
 .div-header-img {
-  width: 50%;
-  width: 50%;
-  background-color: green;
-  border: white solid 5px;
+
 }
 
 .li-head-list {
