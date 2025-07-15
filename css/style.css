@@ -18,6 +18,13 @@
   border: white solid 5px;
 }
 
+.div-header-img {
+  height: 10vh;
+  width: 50%;
+  background-color: green;
+  border: grey solid 5px;
+}
+
 .li-head-list {
   display: inline;
 }
