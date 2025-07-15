@@ -4,3 +4,8 @@
   padding: 0;
   box-sizing: border-box;
 }
+
+
+.ul-heal-list {
+  list-style-type: none;
+}
