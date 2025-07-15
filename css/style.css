@@ -12,28 +12,31 @@
   }
 
    .div-hero-section {
+      display: flex;
+      flex-direction: column;
       background-color: #ffa700ff;
    }
 
    .div-header-section {
-      position: relative;
-      height: 30px;
+      height: 128px;
+      width: 100%;
       background-color: #00ffffff; 
    }
 
    .div-statistics-section {
-      height: 30px;
+      width: 50%;
+      height: 339px;
       background-color: #91eb7eff;   
    }
 
    .div-identity-section {
-      height: 30px;
+      width: 50%;
+      height: 339px;
       background-color: #d587ccff; 
    }
 
   .container {
-    padding: 10px;
-    font-size: 14px;
+
   }
 }
 
