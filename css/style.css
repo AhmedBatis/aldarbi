@@ -11,6 +11,22 @@
     background-color: #c7ad65;
   }
 
+   .div-hero-section {
+      background-color: #ffa700ff;
+   }
+
+   .div-header-section {
+      background-color: #00ffffff; 
+   }
+
+   .div-statistics-section {
+      background-color: #91eb7eff;   
+   }
+
+   .div-identity-section {
+      background-color: #d587ccff; 
+   }
+
   .container {
     padding: 10px;
     font-size: 14px;
