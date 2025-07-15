@@ -1,14 +1,17 @@
-/* css/style.css */
-
-body, html {
+/* Reset and base styling */
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: sans-serif;
-    height: 100%;
 }
 
-/* Container for the full screen section */
+body, html {
+    font-family: sans-serif;
+    height: 100%;
+    background-color: #ffffff;
+}
+
+/* Main hero section */
 .div-hero-section {
     height: 100vh;
     display: flex;
@@ -19,46 +22,36 @@ body, html {
 .div-header-section {
     height: 128px;
     width: 100%;
-    background-color: #f0f0f0; /* Optional for visualization */
+    background-color: #f0f0f0;
     display: flex;
     align-items: center;
     justify-content: center;
 }
 
-/* Wrapper for stats + identity */
-.div-statistics-section,
-.div-identity-section {
-    height: 339px;
-    width: 50%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    background-color: #e0e0e0; /* Optional, for demo only */
-}
-
-/* Make them appear side by side */
-.div-header-section + .div-statistics-section {
-    display: flex;
-    flex-direction: row;
-}
-
-.div-statistics-section {
-    background-color: #cde4f7; /* Light blue for visual aid */
-}
-
-.div-identity-section {
-    background-color: #f7e4cd; /* Light orange for visual aid */
-}
-
-/* Flex row for the bottom two sections */
-.div-header-section + .div-statistics-section {
-    display: flex;
-    flex-direction: row;
-}
-
+/* Bottom section (holds stats + identity) */
 .div-bottom-section {
     display: flex;
     flex-direction: row;
     width: 100%;
+    flex: 1;
 }
 
+/* Statistics section */
+.div-statistics-section {
+    height: 339px;
+    width: 50%;
+    background-color: #cde4f7;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* Identity section */
+.div-identity-section {
+    height: 339px;
+    width: 50%;
+    background-color: #f7e4cd;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
