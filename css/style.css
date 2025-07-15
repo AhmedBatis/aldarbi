@@ -6,6 +6,7 @@
 }
 
 .header-section {
+position: static;
 background-color: Grey;
 height: 100vh;
 
