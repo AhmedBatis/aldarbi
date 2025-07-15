@@ -1,34 +1,41 @@
-/* Reset some basic styles */
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
+/* ========================
+   📱 Mobile (≤ 767px)
+   ======================== */
+@media screen and (max-width: 767px) {
+  body {
+    background-color: #ffe0e0;
+  }
+
+  .container {
+    padding: 10px;
+    font-size: 14px;
+  }
 }
 
-.header-section {
-display: flex;
-flex-direction: column;
-background-color: Grey;
-height: 100vh;
+/* ==========================
+   📱 Tablet (768px–991px)
+   ========================== */
+@media screen and (min-width: 768px) and (max-width: 991px) {
+  body {
+    background-color: #e0f0ff;
+  }
 
+  .container {
+    padding: 20px;
+    font-size: 16px;
+  }
 }
 
-.div-header-nav {
-/*background-color: red;*/
-}
+/* ==========================
+   💻 Desktop (≥ 992px)
+   ========================== */
+@media screen and (min-width: 992px) {
+  body {
+    background-color: #f0f0f0;
+  }
 
-.div-header-img {
-/*background-color: green;*/
-}
-
-.li-head-list {
-font-size: 18px;
-}
-
-.img-header {
-
-}
-
-p {
-  font-size: 24px;
+  .container {
+    padding: 40px;
+    font-size: 18px;
+  }
 }
