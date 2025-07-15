@@ -3,7 +3,7 @@
    ======================== */
 @media screen and (max-width: 767px) {
   body {
-    background-color: #ffe0e0;
+    background-color: purple;
   }
 
   .container {
@@ -17,7 +17,7 @@
    ========================== */
 @media screen and (min-width: 768px) and (max-width: 991px) {
   body {
-    background-color: #e0f0ff;
+    background-color: red;
   }
 
   .container {
@@ -31,7 +31,7 @@
    ========================== */
 @media screen and (min-width: 992px) {
   body {
-    background-color: #f0f0f0;
+    background-color: blue;
   }
 
   .container {
