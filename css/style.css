@@ -13,6 +13,7 @@
 
 .div-header-nav {
   height: 10vh;
+  width: 50%;
   background-color: yellow;
   border: white solid 5px;
 }
