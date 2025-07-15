@@ -1,3 +1,5 @@
+/* css/style.css */
+
 body, html {
     margin: 0;
     padding: 0;
@@ -6,14 +8,6 @@ body, html {
     height: 100%;
 }
 
-/* ========================
-   📱 Mobile (≤ 767px)
-   ======================== */
-@media screen and (max-width: 767px) {
-  body {
-    background-color: #c7ad65;
-  }
-
 /* Container for the full screen section */
 .div-hero-section {
     height: 100vh;
@@ -60,84 +54,4 @@ body, html {
 .div-header-section + .div-statistics-section {
     display: flex;
     flex-direction: row;
-}
-
-  .container {
-
-  }
-}
-
-/* ==========================
-   📱 Tablet (768px–991px)
-   ========================== */
-@media screen and (min-width: 768px) and (max-width: 991px) {
-  body {
-    background-color: #899ed9;
-  }
-
-  .container {
-    padding: 20px;
-    font-size: 16px;
-  }
-}
-
-/* ==========================
-   💻 Desktop (≥ 992px)
-   ========================== */
-@media screen and (min-width: 992px) {
-/* Container for the full screen section */
-.div-hero-section {
-    height: 100vh;
-    display: flex;
-    flex-direction: column;
-}
-
-/* Header section */
-.div-header-section {
-    height: 128px;
-    width: 100%;
-    background-color: #f0f0f0; /* Optional for visualization */
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
-/* Wrapper for stats + identity */
-.div-statistics-section,
-.div-identity-section {
-    height: 339px;
-    width: 50%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    background-color: #e0e0e0; /* Optional, for demo only */
-}
-
-/* Make them appear side by side */
-.div-header-section + .div-statistics-section {
-    display: flex;
-    flex-direction: row;
-}
-
-.div-statistics-section {
-    background-color: #cde4f7; /* Light blue for visual aid */
-}
-
-.div-identity-section {
-    background-color: #f7e4cd; /* Light orange for visual aid */
-}
-
-/* Flex row for the bottom two sections */
-.div-header-section + .div-statistics-section {
-    display: flex;
-    flex-direction: row;
-}
-
-  .container {
-
-  }
-}
-
-
-   
 }
