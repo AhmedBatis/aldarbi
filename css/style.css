@@ -6,16 +6,16 @@
 }
 
 .header-section {
-  display: flex;
+background-color: blue;
 
 }
 
 .div-header-nav {
-
+background-color: red;
 }
 
 .div-header-img {
-
+background-color: green;
 }
 
 .li-head-list {
