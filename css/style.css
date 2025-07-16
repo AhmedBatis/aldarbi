@@ -8,56 +8,35 @@
 body, html {
   font-family: sans-serif;
   height: 100%;
-  background-color: transparent; /* Allow video background */
+  background-color: transparent;
 }
 
-/* Main container (optional, useful if you want to center) */
+/* Container wrapper */
 .container {
   width: 100%;
   overflow-x: hidden;
 }
 
-/* Main hero section */
-.div-hero-section {
-  position: relative;
-  height: 100vh;
-  display: flex;
-  flex-direction: column;
-  overflow: hidden;
-}
-
-/* Video background */
-.video-bg {
-  position: absolute;
+/* ✅ Fixed Header */
+.div-header-section {
+  position: fixed;                           /* Always stick to top */
   top: 0;
-  right: 0;
-  bottom: 0;
   left: 0;
   width: 100%;
-  height: 100%;
-  object-fit: cover;
-  z-index: -1;
-}
-
-/* Sticky Header */
-.div-header-section {
-  position: sticky;                          /* Stick at top on scroll */
-  top: 0;
-  z-index: 10;                               /* Stay above video */
-  width: 100vw;
-  height: 128px;
-  background-color: rgba(0, 255, 255, 0.45); /* Initial semi-transparent background */
+  height: 128px;                             /* Fixed height */
+  background-color: rgba(0, 255, 255, 0.45); /* Initial semi-transparent */
   padding: 10px 20px;
   box-sizing: border-box;
-  transition: background-color 0.3s ease;   /* Smooth color change */
+  z-index: 100;                              /* Float above all */
+  transition: background-color 0.3s ease;    /* Smooth transition */
 }
 
-/* When scrolled down */
+/* ✅ Background color after scroll */
 .div-header-section.scrolled {
-  background-color: #007BFF;                /* Blue background after scroll */
+  background-color: #007BFF;                 /* Solid blue */
 }
 
-/* Header content layout */
+/* Header inner layout */
 .header-content {
   width: 52%;
   display: flex;
@@ -93,7 +72,27 @@ body, html {
   color: #fff;
 }
 
-/* Bottom section */
+/* ✅ Hero Section */
+.div-hero-section {
+  position: relative;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+  padding-top: 128px;    /* Compensate for fixed header */
+}
+
+/* Video background */
+.video-bg {
+  position: absolute;
+  top: 0; right: 0; bottom: 0; left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  z-index: -1;
+}
+
+/* Bottom section inside hero */
 .div-bottom-section {
   position: relative;
   z-index: 1;
@@ -103,7 +102,7 @@ body, html {
   flex: 1 0 auto;
 }
 
-/* Statistics section */
+/* Statistics */
 .div-statistics-section {
   height: 100%;
   width: 50%;
@@ -113,7 +112,7 @@ body, html {
   justify-content: center;
 }
 
-/* Identity section */
+/* Identity */
 .div-identity-section {
   height: 100%;
   width: 50%;
@@ -123,7 +122,7 @@ body, html {
   justify-content: center;
 }
 
-/* Content section below hero */
+/* Content section after hero */
 .div-content-section {
   width: 100%;
   height: 600px;
