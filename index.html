@@ -1,18 +1,16 @@
-<!DOCTYPE html>
-<html dir="rtl" lang="ar">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Hero Section Layout with Video Background</title>
-    <link rel="stylesheet" href="css/style.css">
-</head>
-<body>
-<div class="container">
 <div class="div-hero-section">
+  
+  <!-- ✅ Video Background -->
+  <video autoplay muted loop playsinline class="video-bg">
+    <source src="src/video-background.mp4" type="video/mp4">
+    متصفحك لا يدعم تشغيل الفيديو.
+  </video>
+
+  <!-- ✅ Header Section -->
   <div class="div-header-section">
     <div class="header-content">
       <div class="logo">
-        <img src="img/aldarbi-logo.png" alt="Site Logo" />
+        <img src="logo.png" alt="Site Logo" />
       </div>
       <nav class="navbar">
         <ul>
@@ -25,17 +23,14 @@
     </div>
   </div>
 
+  <!-- ✅ Bottom Section -->
   <div class="div-bottom-section">
     <div class="div-statistics-section">Stats Here</div>
     <div class="div-identity-section">Identity Here</div>
   </div>
 </div>
 
-<!-- ✅ New content section BELOW the hero -->
+<!-- ✅ Content Section Below Hero -->
 <div class="div-content-section">
   <p>This is some dummy content below the hero section.</p>
 </div>
-
-</div>
-</body>
-</html>
