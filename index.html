@@ -1,65 +1,63 @@
 <!DOCTYPE html>
 <html dir="rtl" lang="ar">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Hero Section Layout with Video Background</title>
-    <link rel="stylesheet" href="css/style.css">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Hero Section Layout with Video Background</title>
+  <link rel="stylesheet" href="css/style.css" />
 </head>
 <body>
-<div class="container">
+  <div class="container">
 
-  <div class="div-hero-section">
-  
-  <!-- ✅ Video Background -->
-  <video autoplay muted loop playsinline class="video-bg">
-    <source src="src/video-background.mp4" type="video/mp4">
-    متصفحك لا يدعم تشغيل الفيديو.
-  </video>
+    <!-- ✅ Hero Section -->
+    <div class="div-hero-section">
 
-  <!-- ✅ Header Section -->
-  <div class="div-header-section">
-    <div class="header-content">
-      <div class="logo">
-        <img src="img/aldarbi-logo.png" alt="Site Logo" />
+      <!-- ✅ Video Background -->
+      <video autoplay muted loop playsinline class="video-bg">
+        <source src="src/video-background.mp4" type="video/mp4" />
+        متصفحك لا يدعم تشغيل الفيديو.
+      </video>
+
+      <!-- ✅ Header Section (sticky) -->
+      <div class="div-header-section">
+        <div class="header-content">
+          <div class="logo">
+            <img src="img/aldarbi-logo.png" alt="Site Logo" />
+          </div>
+          <nav class="navbar">
+            <ul>
+              <li><a href="#">Home</a></li>
+              <li><a href="#">About</a></li>
+              <li><a href="#">Services</a></li>
+              <li><a href="#">Contact</a></li>
+            </ul>
+          </nav>
+        </div>
       </div>
-      <nav class="navbar">
-        <ul>
-          <li><a href="#">Home</a></li>
-          <li><a href="#">About</a></li>
-          <li><a href="#">Services</a></li>
-          <li><a href="#">Contact</a></li>
-        </ul>
-      </nav>
+
+      <!-- ✅ Bottom Section -->
+      <div class="div-bottom-section">
+        <div class="div-statistics-section">Stats Here</div>
+        <div class="div-identity-section">Identity Here</div>
+      </div>
+    </div>
+
+    <!-- ✅ Content Section Below Hero -->
+    <div class="div-content-section">
+      <p>This is some dummy content below the hero section.</p>
     </div>
   </div>
 
-  <!-- ✅ Bottom Section -->
-  <div class="div-bottom-section">
-    <div class="div-statistics-section">Stats Here</div>
-    <div class="div-identity-section">Identity Here</div>
-  </div>
-</div>
-
-<!-- ✅ Content Section Below Hero -->
-<div class="div-content-section">
-  <p>This is some dummy content below the hero section.</p>
-</div>
-
-</div>
-
-<script>
-  // JavaScript to toggle 'scrolled' class on the header
-  window.addEventListener('scroll', function () {
-    const header = document.querySelector('.div-header-section');
-    if (window.scrollY > 0) {
-      header.classList.add('scrolled');   // Add class when scrolled
-    } else {
-      header.classList.remove('scrolled'); // Remove when at top
-    }
-  });
-</script>
-
-    
+  <!-- ✅ JavaScript to toggle background on scroll -->
+  <script>
+    window.addEventListener('scroll', function () {
+      const header = document.querySelector('.div-header-section');
+      if (window.scrollY > 0) {
+        header.classList.add('scrolled');
+      } else {
+        header.classList.remove('scrolled');
+      }
+    });
+  </script>
 </body>
 </html>
