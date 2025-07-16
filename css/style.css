@@ -119,3 +119,18 @@ body, html {
   font-size: 1.5rem;
   color: #333;
 }
+
+/* Sticky Header Styling */
+.div-header-section {
+  position: sticky;                      /* Stick to top while scrolling */
+  top: 0;                                /* Start sticking from top edge */
+  z-index: 10;                           /* Ensure it stays above other content */
+  transition: background-color 0.3s ease; /* Smooth background color change */
+}
+
+/* Background color after scroll */
+.div-header-section.scrolled {
+  background-color: #007BFF;            /* Solid blue when scrolling */
+}
+
+
