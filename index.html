@@ -47,5 +47,19 @@
 </div>
 
 </div>
+
+<script>
+  // JavaScript to toggle 'scrolled' class on the header
+  window.addEventListener('scroll', function () {
+    const header = document.querySelector('.div-header-section');
+    if (window.scrollY > 0) {
+      header.classList.add('scrolled');   // Add class when scrolled
+    } else {
+      header.classList.remove('scrolled'); // Remove when at top
+    }
+  });
+</script>
+
+    
 </body>
 </html>
