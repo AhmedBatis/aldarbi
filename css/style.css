@@ -8,7 +8,7 @@
 body, html {
     font-family: sans-serif;
     height: 100%;
-    background-color: #ffffff;
+    background-color: transparent; /* ✅ allows video to show */
 }
 
 /* Main hero section */
