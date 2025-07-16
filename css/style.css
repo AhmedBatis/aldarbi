@@ -24,7 +24,7 @@ body, html {
   left: 0;
   width: 100%;
   height: 128px;                             /* Fixed height */
-  background-color: rgba(41, 56, 126, 0.90); /* Initial semi-transparent */
+  background-color: rgba(41, 56, 126, 100); /* Initial semi-transparent */
   padding: 10px 20px;
   box-sizing: border-box;
   z-index: 100;                              /* Float above all */
