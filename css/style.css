@@ -1,111 +1,109 @@
 /* Reset and base styles */
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+    margin: 0;                          /* Remove default margins from all elements */
+    padding: 0;                         /* Remove default padding from all elements */
+    box-sizing: border-box;            /* Include padding and border in element's total width/height */
 }
 
 body, html {
-    font-family: sans-serif;
-    height: 100%;
-    background-color: transparent; /* ✅ allows video to show */
+    font-family: sans-serif;           /* Set base font */
+    height: 100%;                      /* Needed for percentage-based height to work in child elements */
+    background-color: transparent;     /* Allow video background to show through */
 }
+
 
 /* Main hero section */
 .div-hero-section {
-    position: relative;
-    height: 100vh;
-    display: flex;
-    flex-direction: column;
-    overflow: hidden;
+    position: relative;                /* Required for absolutely positioned children (e.g., video-bg) */
+    height: 100vh;                     /* Fill full screen height */
+    display: flex;                     /* Use Flexbox for vertical layout */
+    flex-direction: column;           /* Stack children vertically (header + bottom section) */
+    overflow: hidden;                 /* Hide overflow (e.g., video edges) */
 }
 
 
 
 /* Video background */
 .video-bg {
-    position: absolute;
-    top: 0;
-    right: 0;
-    bottom: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-    z-index: -1; /* ✅ Push behind all content */
+    position: absolute;               /* Position the video relative to div-hero-section */
+    top: 0; right: 0; bottom: 0; left: 0; /* Stretch to all sides */
+    width: 100%; height: 100%;        /* Fill parent completely */
+    object-fit: cover;                /* Maintain aspect ratio while covering area */
+    z-index: -1;                      /* Push behind all other content */
 }
 
 
 /* Header section */
 .div-header-section {
-  width: 100vw;              /* Full viewport width */
-  height: 128px;   /* fixed height */
-  background-color: rgba(0, 255, 255, 0.45); /* Light white tint */
-  padding: 10px 20px;
-  box-sizing: border-box;
+  width: 100vw;                       /* Full screen width */
+  height: 128px;                      /* Fixed height (important for layout calculation) */
+  background-color: rgba(0, 255, 255, 0.45); /* Semi-transparent background */
+  padding: 10px 20px;                 /* Inner spacing */
+  box-sizing: border-box;            /* Padding included in total width */
 }
+
 
 .header-content {
-  width: 52%;                /* Combined width of logo + navbar */
-  display: flex;
-  align-items: center;
-  justify-content: space-evenly;
-  margin: 0 auto;            /* Center horizontally */
+  width: 52%;                         /* 52% of header section's width (logo + nav combined) */
+  display: flex;                      /* Horizontal layout for logo and navbar */
+  align-items: center;               /* Vertically center items */
+  justify-content: space-evenly;     /* Even horizontal spacing */
+  margin: 0 auto;                    /* Center header-content horizontally */
 }
+
 
 .logo img {
-  height: 100px;
+  height: 100px;                      /* Logo image height */
 }
 
+
 .navbar ul {
-  list-style: none;
-  display: flex;
-  margin: 0;
-  padding: 0;
+  list-style: none;                  /* Remove default bullets */
+  display: flex;                     /* Horizontal menu */
+  margin: 0; padding: 0;             /* Reset spacing */
 }
 
 .navbar li {
-  margin-left: 20px;
+  margin-left: 20px;                 /* Spacing between nav items */
 }
 
+
 .navbar a {
-  text-decoration: none;
-  color: #333;
-  font-weight: 600;
+  text-decoration: none;             /* Remove underline */
+  color: #333;                       /* Text color */
+  font-weight: 600;                  /* Semi-bold */
 }
 
 .navbar a:hover {
-  color: #007BFF;
+  color: #007BFF;                    /* Hover color for nav links */
 }
-
 
 
 /* Bottom section container */
 .div-bottom-section {
-    position: relative;   /* ✅ Needed for z-index to apply */
-    z-index: 1;           /* ✅ Ensure it's above video */
-    display: flex;
-    flex-direction: row;
-    width: 100%;
-    flex: 1 0 auto;           /* Take remaining height */
+    position: relative;              /* Needed if positioning/z-index is used on children */
+    z-index: 1;                      /* Ensure it's above the background video */
+    display: flex;                   /* Arrange statistics & identity side-by-side */
+    flex-direction: row;            /* Horizontal layout */
+    width: 100%;                    /* Full width of the parent */
+    flex: 1 0 auto;                 /* Take remaining vertical space after header */
 }
+
 
 /* Statistics section */
 .div-statistics-section {
-    height: 100%;  /* Now 100% of div-bottom-section */
-    width: 50%;
-    background-color: rgba(145, 235, 126, 0.45); /* Light white tint */
-    display: flex;
-    align-items: center;
-    justify-content: center;
+    height: 100%;                   /* Inherit height from div-bottom-section */
+    width: 50%;                     /* Half of the bottom section */
+    background-color: rgba(145, 235, 126, 0.45); /* Light tint background */
+    display: flex; align-items: center; justify-content: center; /* Center content */
 }
+
 
 /* Identity section */
 .div-identity-section {
-    height: 100%;  /* Now 100% of div-bottom-section */
-    width: 50%;
-    background-color: rgba(213, 135, 204, 0.45); /* Light white tint */
-    display: flex;
-    align-items: center;
-    justify-content: center;
+    height: 100%;                   /* Inherit height from div-bottom-section */
+    width: 50%;                     /* Half of the bottom section */
+    background-color: rgba(213, 135, 204, 0.45); /* Light tint background */
+    display: flex; align-items: center; justify-content: center; /* Center content */
 }
+
