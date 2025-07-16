@@ -24,7 +24,7 @@ body, html {
   left: 0;
   width: 100%;
   height: 128px;                             /* Fixed height */
-  background-color: rgba(var( --primary-blue-light), 0.1);  /* ✅ 10% opacity */
+  background-color: rgba(var( --primary-blue-dark), 0.3);  /* ✅ 30% opacity */
   padding: 10px 20px;
   box-sizing: border-box;
   z-index: 100;                              /* Float above all */
