@@ -3,32 +3,36 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Hero Section Layout</title>
-    <link rel="stylesheet" href="css/style.css">
+    <title>Hero Section Layout with Video Background</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <div class="container">
 
-<div class="div-hero-section">
-    <video autoplay muted loop playsinline class="video-bg">
-        <source src="src/video-background.mp4" type="video/mp4">
-        متصفحك لا يدعم تشغيل الفيديو.
-    </video>
+        <div class="div-hero-section">
 
-    <div class="div-header-section">
-        <p>Division Header</p> 
-    </div>
+            <!-- Video Background -->
+            <video autoplay muted loop playsinline class="video-bg">
+                <source src="src/video-background.mp4" type="video/mp4">
+                متصفحك لا يدعم تشغيل الفيديو.
+            </video>
 
-    <div class="div-bottom-section">
-        <div class="div-statistics-section">
-            <p>Division Statistics</p>
+            <!-- Header Section -->
+            <div class="div-header-section">
+                <p>Division Header</p> 
+            </div>
+
+            <!-- Bottom Section (Stats + Identity) -->
+            <div class="div-bottom-section">
+                <div class="div-statistics-section">
+                    <p>Division Statistics</p>
+                </div>
+                <div class="div-identity-section">
+                    <p>Division Identity</p>
+                </div>
+            </div>
+
         </div>
-        <div class="div-identity-section">
-            <p>Division Identity</p>
-        </div>
-    </div>
-</div>
-
 
     </div>
 </body>
