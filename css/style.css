@@ -37,7 +37,7 @@ body, html {
 .div-header-section {
   width: 100vw;              /* Full viewport width */
   height: 128px;
-  background-color: rgba(0, 255, 255, 100); /* Light white tint */
+  background-color: rgba(0, 255, 255, 20); /* Light white tint */
   padding: 10px 20px;
   box-sizing: border-box;
 }
@@ -92,7 +92,7 @@ body, html {
 .div-statistics-section {
     height: 339px;
     width: 50%;
-    background-color: rgba(145, 235, 126, 100); /* Light white tint */
+    background-color: rgba(145, 235, 126, 20); /* Light white tint */
     display: flex;
     align-items: center;
     justify-content: center;
@@ -102,7 +102,7 @@ body, html {
 .div-identity-section {
     height: 339px;
     width: 50%;
-    background-color: rgba(213, 135, 204, 100); /* Light white tint */
+    background-color: rgba(213, 135, 204, 20); /* Light white tint */
     display: flex;
     align-items: center;
     justify-content: center;
