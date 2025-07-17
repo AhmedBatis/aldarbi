@@ -40,7 +40,7 @@
 /* Navbar */
 
 .navbar {
-    grid-column: 10 / span 6;       /* Occupy columns 10 to 15 */
+  grid-column: 10 / span 8;       /* Occupy columns 10 to 15 */
   justify-self: end;              /* Align the navbar to the right inside its grid cell */
   font-family: "Almarai", sans-serif;
   font-weight: 700;
