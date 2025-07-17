@@ -27,9 +27,16 @@
 }
 
 /* Logo */
-.aldarbi-logo svg {
+/*.aldarbi-logo svg {
   height: 95px;
+}*/
+
+.injected-logo {
+  width: 150px;
+  height: auto;
+  display: block;
 }
+
 
 
 /* Navbar */
