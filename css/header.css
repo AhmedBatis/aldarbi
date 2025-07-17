@@ -1,3 +1,30 @@
+/* Tablet - portrait only */
+@media (min-width: 600px) and (max-width: 1024px) and (orientation: portrait) {
+  /* styles */
+
+  .navbar {
+  font-family: "Almarai", sans-serif;
+  font-weight: 700;
+  font-size: 18px;
+  font-style: normal;
+  /* add some margin for navbar to control its place */
+  margin-inline-end: 5%;
+}
+
+
+  
+}
+
+/* Tablet - landscape only */
+@media (min-width: 600px) and (max-width: 1024px) and (orientation: landscape) {
+  /* styles */
+}
+
+
+
+
+
+
 /* ✅ Fixed Header */
 .div-header-section {
   position: fixed;                           /* Always stick to top */
