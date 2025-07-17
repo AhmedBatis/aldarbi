@@ -35,6 +35,11 @@
   margin-inline-end: 1.5%;
 }
 
+.navbar-aligner {
+  flex-grow: 1;
+  display: flex;
+  justify-content: flex-end;
+}
 
 
 /* Navbar */
