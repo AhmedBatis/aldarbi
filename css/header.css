@@ -17,42 +17,46 @@
   background-color: rgba(var( --primary-blue-dark), 1);  /* ✅ 100% opacity */
 }
 
-
 /* Header inner layout */
 .header-content {
   display: flex;
-  align-items: center;
   justify-content: space-between;
+  align-items: center;
   width: 70%;
   margin: 0 auto;
 }
 
-/* Logo */
-.aldarbi-logo {
-  flex-shrink: 0; /* Don’t allow it to shrink */
+/* Injedcted via JS @ js/logo.js */
+.injected-logo {
+  width: 100px !important;
+  height: auto;
+  display: block;
+  /* add some margin for logo to control its place */
+  margin-inline-end: 1.5%;
 }
 
-/* Wrapper takes remaining space to push navbar from center to left */
-.navbar-wrapper {
-  flex: 1; /* Grow to fill space */
-  display: flex;
-  justify-content: flex-start; /* In RTL, starts at center and flows left */
-}
+
 
 /* Navbar */
+
 .navbar {
   font-family: "Almarai", sans-serif;
   font-weight: 700;
-  font-size: clamp(20px, 2vw, 24px);
+  font-size: clamp(20px, 2vw, 24px); /* Responsive font size */
   font-style: normal;
+  /* add some margin for navbar to control its place */
+  margin-inline-end: clamp(20%, 10vw, 35%);
 }
 
 .navbar ul {
   list-style: none;
   display: flex;
-  gap: 20px; /* replaces margin-left in RTL */
   margin: 0;
   padding: 0;
+}
+
+.navbar li {
+  margin-left: 20px;
 }
 
 .navbar a {
