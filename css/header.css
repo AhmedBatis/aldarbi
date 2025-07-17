@@ -32,14 +32,9 @@
   height: auto;
   display: block;
   /* add some margin for logo to control its place */
-  margin-inline-end: 1.5%;
+  margin-inline-end: auto;
 }
 
-.navbar-aligner {
-  flex-grow: 1;
-  display: flex;
-  justify-content: flex-end;
-}
 
 
 /* Navbar */
@@ -49,15 +44,16 @@
   font-weight: 700;
   font-size: clamp(20px, 2vw, 24px); /* Responsive font size */
   font-style: normal;
-  /* add some margin for navbar to control its place */
-  margin-inline-start: auto;
+  margin-inline-start: auto; /* Pushes navbar to the left (in RTL) */
+  direction: rtl; /* Ensure correct flow for Arabic */
 }
 
 .navbar ul {
-  list-style: none;
   display: flex;
-  margin: 0;
+  justify-content: flex-start;
   padding: 0;
+  margin: 0;
+  list-style: none;
 }
 
 .navbar li {
