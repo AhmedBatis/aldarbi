@@ -40,6 +40,13 @@
 
 
 /* Navbar */
+
+.navbar {
+  font-family: "Almarai", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
 .navbar ul {
   list-style: none;
   display: flex;
@@ -59,11 +66,4 @@
 
 .navbar a:hover {
   color: #fff;
-}
-
-/* hand2-blue */
-/* hand1-blue */
-
-#hand2-blue {
-  color: red;
 }
