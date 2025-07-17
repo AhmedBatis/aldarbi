@@ -20,11 +20,11 @@
 /* Header inner layout */
 .header-content {
   display: flex;
-  justify-content: space-between;
   align-items: center;
   width: 70%;
   margin: 0 auto;
 }
+
 
 /* Injedcted via JS @ js/logo.js */
 .injected-logo {
