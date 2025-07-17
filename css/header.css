@@ -27,9 +27,18 @@
 }
 
 /* Logo */
-.aldarbi-logo svg {
-  height: 100px;
+.logo svg {
+  width: 150px;     /* or whatever size you want */
+  height: auto;
+  display: block;
 }
+
+.logo {
+  display: inline-block;
+  vertical-align: middle;
+  /* optional spacing if needed */
+}
+
 
 /* Navbar */
 .navbar ul {
