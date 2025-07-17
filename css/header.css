@@ -19,34 +19,35 @@
 
 /* Header inner layout */
 .header-content {
-  display: flex;
+  display: grid;
+  grid-template-columns: repeat(15, 1fr); /* 15 equal fractions */
   align-items: center;
   width: 70%;
   margin: 0 auto;
 }
 
-
-/* Injedcted via JS @ js/logo.js */
-.injected-logo {
-  width: 100px !important;
-  height: auto;
-  display: block;
-  /* add some margin for logo to control its place */
-  margin-inline-end: auto;
+.aldarbi-logo {
+  grid-column: 1 / span 3;
+  justify-self: center;
 }
 
+.injected-logo {
+  width: 100px;
+  height: auto;
+}
 
 
 /* Navbar */
 
 .navbar {
+    grid-column: 10 / span 6;       /* Occupy columns 10 to 15 */
+  justify-self: end;              /* Align the navbar to the right inside its grid cell */
   font-family: "Almarai", sans-serif;
   font-weight: 700;
   font-size: clamp(20px, 2vw, 24px); /* Responsive font size */
   font-style: normal;
-  margin-inline-start: auto; /* Pushes navbar to the left (in RTL) */
-  direction: rtl; /* Ensure correct flow for Arabic */
 }
+
 
 .navbar ul {
   display: flex;
