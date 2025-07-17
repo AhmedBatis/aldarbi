@@ -32,7 +32,7 @@
 }*/
 
 .injected-logo {
-  width: 100px;
+  width: 100px !important;
   height: auto;
   display: block;
 }
