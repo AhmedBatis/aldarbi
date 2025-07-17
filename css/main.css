@@ -25,7 +25,7 @@ body, html {
   display: flex;
   flex-direction: column;
   overflow: hidden;
-  padding-top: 10%; /* Check Settings @css/settings.css*/
+  padding-top: 128px; /* Check Settings @css/settings.css*/
 }
 
 /* Video background */
