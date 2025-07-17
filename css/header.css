@@ -45,7 +45,7 @@
   font-size: clamp(20px, 2vw, 24px); /* Responsive font size */
   font-style: normal;
   /* add some margin for navbar to control its place */
-  margin-inline-end: clamp(10%, 10vw, 35%);
+  margin-inline-end: clamp(30%, 10vw, 35%);
 }
 
 .navbar ul {
