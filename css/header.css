@@ -71,58 +71,34 @@
 
 
 
-@media (max-width: 1024px) /* 10" Notebook */ {
+/* Tablets */
+@media (min-width: 600px) {
   .navbar {
-  font-size: 12px;
-  margin-inline-end: 10%;
-}
+    font-size: 16px;
+    margin-inline-end: 10%;
+  }
 }
 
-@media (max-width: 1024px) /* 12" Notebook */ {
+/* Small laptops */
+@media (min-width: 1025px) {
   .navbar {
-  font-size: 14px;
-  margin-inline-end: 15%;
-}
-}
-
-@media (max-width: 1280px) /* 13" Notebook */ {
-  .navbar {
-  font-size: 16px;
-  margin-inline-end: 20%;
-}  
+    font-size: 18px;
+    margin-inline-end: 20%;
+  }
 }
 
-@media (max-width: 1366px) /* 15" Notebook */ {
+/* Medium laptops */
+@media (min-width: 1281px) {
   .navbar {
-  font-size: 18px;
-  margin-inline-end: 25%;
-}    
+    font-size: 20px;
+    margin-inline-end: 30%;
+  }
 }
 
-@media (max-width: 1440px) /* 19" Desktop */ {
+/* Full HD and up */
+@media (min-width: 1441px) {
   .navbar {
-  font-size: 20px;
-  margin-inline-end: 30%;
-}      
-}
-
-@media (max-width: 1600px) /* 20" Desktop */ {
-  .navbar {
-  font-size: 22px;
-  margin-inline-end: 35%;
-}    
-}
-
-@media (max-width: 1680px) /* 22" Desktop */ {
-  .navbar {
-  font-size: 24px;
-  margin-inline-end: 40%;
-}     
-}
-
-@media (max-width: 1920px) /* 23/24" Desktop */ {
-  .navbar {
-  font-size: 26px;
-  margin-inline-end: 45%;
-}     
+    font-size: 24px;
+    margin-inline-end: 35%;
+  }
 }
