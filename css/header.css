@@ -42,7 +42,7 @@
 /* Navbar */
 
 .navbar {
-  grid-column: 8 / span 6; /* Occupies columns 8 to 13 */
+  grid-column: 11 / span 4; /* Occupies columns 8 to 13 */
   justify-self: end;              /* Align the navbar to the right inside its grid cell */
   font-family: "Almarai", sans-serif;
   font-weight: 700;
