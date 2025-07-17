@@ -5,7 +5,7 @@
   left: 0;
   width: 100%;
   height: 128px;                             /* Fixed height */
-  background-color: rgba(var( --primary-white-plain), 0.3);  /* ✅ 30% opacity */
+  background-color: rgba(var( --primary-blue-dark), 0.3);  /* ✅ 30% opacity */
   padding: 10px 20px;
   box-sizing: border-box;
   z-index: 100;                              /* Float above all */
@@ -14,7 +14,7 @@
 
 /* ✅ Background color after scroll */
 .div-header-section.scrolled {
-  background-color: rgba(var( --primary-white-plain), 0);  /* ✅ 0% opacity */
+  background-color: rgba(var( --primary-blue-dark), 1);  /* ✅ 100% opacity */
 }
 
 /* Header inner layout */
