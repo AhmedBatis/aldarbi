@@ -30,13 +30,6 @@
 .aldarbi-logo svg {
   width: 120px;     /* or whatever size you want */
   height: auto;
-  display: block;
-}
-
-.aldarbi-logo {
-  display: inline-block;
-  vertical-align: middle;
-  /* optional spacing if needed */
 }
 
 
