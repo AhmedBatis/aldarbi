@@ -59,22 +59,15 @@
   margin-left: 20px;
 }
 
-.navbar a::after {
-  content: "";
-  position: absolute;
-  height: 5px;
-  left: 0;
-  bottom: 0;
-  width: 0;
-  background: yellow;
-  transition: width .2s;
-  
+.navbar a {
+  text-decoration: none;
+  color: white;
+  font-weight: 600;
 }
 
 .navbar a:hover {
-  width: 100%
+  color: grey;
 }
-
 
 
 
