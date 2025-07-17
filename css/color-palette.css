@@ -3,7 +3,7 @@
   /* example: background-color: rgba(var( --primary-blue-light), 0.1);  /* ✅ 10% opacity */
   --primary-white-plain: 234, 235, 237;  /* No rgba(), just the values */
   --primary-blue-dark: 40, 54, 127;  /* No rgba(), just the values */
-  --primary-blue-light: 34, 47, 90;  /* No rgba(), just the values */
+  --primary-blue-light: 16, 76, 186;  /* No rgba(), just the values */
   --primary-grey-dark: 146, 147, 149;  /* No rgba(), just the values */
   --primary-grey-light: 177, 182, 199;  /* No rgba(), just the values */
 }
