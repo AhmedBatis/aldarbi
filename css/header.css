@@ -14,7 +14,7 @@
 
 /* ✅ Background color after scroll */
 .div-header-section.scrolled {
-  background-color: rgba(var( --primary-blue-light), 1);  /* ✅ 100% opacity */
+  background-color: rgba(var( --primary-blue-dark), 1);  /* ✅ 100% opacity */
 }
 
 /* Header inner layout */
