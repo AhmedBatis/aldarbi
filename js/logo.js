@@ -1,4 +1,4 @@
-// load-logo.js
+// aldarbi-logo.svg
 
 document.addEventListener("DOMContentLoaded", () => {
   const logoContainer = document.querySelector(".logo");
