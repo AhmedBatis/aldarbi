@@ -1,4 +1,4 @@
-// aldarbi-logo.svg
+// Load SVG logo
 
 document.addEventListener("DOMContentLoaded", () => {
   const logoContainer = document.querySelector(".logo");
