@@ -1,15 +1,12 @@
 /* Tablet - portrait only */
 @media (min-width: 600px) and (max-width: 1024px) and (orientation: portrait) {
   /* styles */
-
   .navbar {
-  font-family: "Almarai", sans-serif;
-  font-weight: 700;
-  font-size: 18px;
-  font-style: normal;
+  font-size: 18px !important;
   /* add some margin for navbar to control its place */
-  margin-inline-end: 5%;
+  margin-inline-end: 5%!important;
 }
+  
 }
 
 /* Tablet - landscape only */
