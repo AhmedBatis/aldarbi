@@ -7,3 +7,14 @@ window.addEventListener('scroll', function () {
         header.classList.remove('scrolled');
       }
     });
+
+// Toggle Menu
+document.addEventListener('DOMContentLoaded', () => {
+  const hamburger = document.querySelector('.hamburger-menu');
+  const mobileNav = document.querySelector('.mobile-nav');
+
+  hamburger.addEventListener('click', () => {
+    mobileNav.style.display = (mobileNav.style.display === 'block') ? 'none' : 'block';
+  });
+});
+
