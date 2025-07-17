@@ -14,7 +14,7 @@
 
 /* ✅ Background color after scroll */
 .div-header-section.scrolled {
-  background-color: #007BFF;                 /* Solid blue */
+  background-color: rgba(var( --primary-white-plain), 0);  /* ✅ 0% opacity */
 }
 
 /* Header inner layout */
