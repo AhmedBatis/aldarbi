@@ -20,7 +20,7 @@
 /* Header inner layout */
 .header-content {
   display: grid;
-  grid-template-columns: repeat(20, 1fr); /* 15 equal fractions */
+  grid-template-columns: repeat(5, 1fr); /* 15 equal fractions */
   align-items: center;
   width: 100%;
   margin: 0 auto;
@@ -29,7 +29,7 @@
 }
 
 .aldarbi-logo {
-  grid-column: 1 / span 3;
+  grid-column: 2 / span 2;
   justify-self: center;
 }
 
@@ -42,8 +42,8 @@
 /* Navbar */
 
 .navbar {
-  grid-column: 10 / span 3; /* Occupies columns 8 to 13 */
-  /*justify-self: strech;*/              /* Align the navbar to the right inside its grid cell */
+  grid-column: 3 / span 2; /* Occupies columns 8 to 13 */
+  justify-self: start;              /* Align the navbar to the right inside its grid cell */
   font-family: "Almarai", sans-serif;
   font-weight: 700;
   font-size: clamp(20px, 2vw, 24px); /* Responsive font size */
