@@ -19,20 +19,20 @@
 
 /* Header inner layout */
 .header-content {
-  width: 52%;
   display: flex;
+  justify-content: space-between;
   align-items: center;
-  justify-content: space-around;
+  width: 52%;
   margin: 0 auto;
 }
-
-
 
 /* Injedcted via JS @ js/logo.js */
 .injected-logo {
   width: 100px !important;
   height: auto;
   display: block;
+  /* add some margin for logo */
+  margin-inline-end: 15px;
 }
 
 
