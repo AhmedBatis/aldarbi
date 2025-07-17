@@ -26,6 +26,10 @@
   margin: 0 auto;
 }
 
+.flex-spacer {
+  flex: 0.05; /* Adjust to control the gap */
+}
+
 /* Logo */
 /*.aldarbi-logo svg {
   height: 95px;
