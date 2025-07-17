@@ -42,10 +42,10 @@
 .navbar {
   font-family: "Almarai", sans-serif;
   font-weight: 700;
-  font-size: 24px;
+  font-size: clamp(20px, 2vw, 24px); /* Responsive font size */
   font-style: normal;
   /* add some margin for navbar to control its place */
-  margin-inline-end: 35%;
+  margin-inline-end: clamp(10%, 10vw, 35%);
 }
 
 .navbar ul {
@@ -73,32 +73,20 @@
 
 /* Tablets */
 @media (min-width: 600px) {
-  .navbar {
-    font-size: 20px;
-    margin-inline-end: 10%;
-  }
+
 }
 
 /* Small laptops */
 @media (min-width: 1025px) {
-  .navbar {
-    font-size: 21px;
-    margin-inline-end: 20%;
-  }
+
 }
 
 /* Medium laptops */
 @media (min-width: 1281px) {
-  .navbar {
-    font-size: 22px;
-    margin-inline-end: 30%;
-  }
+
 }
 
 /* Full HD and up */
 @media (min-width: 1441px) {
-  .navbar {
-    font-size: 24px;
-    margin-inline-end: 35%;
-  }
+
 }
