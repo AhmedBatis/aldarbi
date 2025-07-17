@@ -27,13 +27,13 @@
 }
 
 /* Logo */
-.logo svg {
+.aldarbi-logo svg {
   width: 150px;     /* or whatever size you want */
   height: auto;
   display: block;
 }
 
-.logo {
+.aldarbi-logo {
   display: inline-block;
   vertical-align: middle;
   /* optional spacing if needed */
