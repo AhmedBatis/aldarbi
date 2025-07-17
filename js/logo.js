@@ -1,7 +1,7 @@
 // Load SVG logo
 
 document.addEventListener("DOMContentLoaded", () => {
-  const logoContainer = document.querySelector(".logo");
+  const logoContainer = document.querySelector(".aldarbi-logo");
 
   fetch("src/aldarbi-logo.svg")
     .then(response => {
