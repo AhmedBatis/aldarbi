@@ -43,6 +43,8 @@
   font-family: "Almarai", sans-serif;
   font-weight: 700;
   font-style: normal;
+  /* add some margin for logo */
+  margin-inline-end: 100px;
 }
 
 .navbar ul {
