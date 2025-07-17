@@ -20,9 +20,9 @@
 /* Header inner layout */
 .header-content {
   display: grid;
-  grid-template-columns: repeat(15, 1fr); /* 15 equal fractions */
+  grid-template-columns: repeat(20, 1fr); /* 15 equal fractions */
   align-items: center;
-  width: 70%;
+  width: 100%;
   margin: 0 auto;
   direction: rtl;         /* already assumed from <html dir="rtl"> */
   grid-auto-flow: dense;  /* optional: fills spaces more efficiently */
