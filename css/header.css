@@ -32,7 +32,7 @@
   height: auto;
   display: block;
   /* add some margin for logo */
-  margin-inline-end: 15px;
+  margin-inline-end: 1.5%;
 }
 
 
@@ -44,7 +44,7 @@
   font-weight: 700;
   font-style: normal;
   /* add some margin for logo */
-  margin-inline-end: 100px;
+  margin-inline-end: 60%;
 }
 
 .navbar ul {
