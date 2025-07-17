@@ -1,1 +1,54 @@
+/* ✅ Fixed Header */
+.div-header-section {
+  position: fixed;                           /* Always stick to top */
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 128px;                             /* Fixed height */
+  background-color: rgba(var( --primary-blue-dark), 0.3);  /* ✅ 30% opacity */
+  padding: 10px 20px;
+  box-sizing: border-box;
+  z-index: 100;                              /* Float above all */
+  transition: background-color 0.3s ease;    /* Smooth transition */
+}
 
+/* ✅ Background color after scroll */
+.div-header-section.scrolled {
+  background-color: #007BFF;                 /* Solid blue */
+}
+
+/* Header inner layout */
+.header-content {
+  width: 52%;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  margin: 0 auto;
+}
+
+/* Logo */
+.logo img {
+  height: 100px;
+}
+
+/* Navbar */
+.navbar ul {
+  list-style: none;
+  display: flex;
+  margin: 0;
+  padding: 0;
+}
+
+.navbar li {
+  margin-left: 20px;
+}
+
+.navbar a {
+  text-decoration: none;
+  color: #333;
+  font-weight: 600;
+}
+
+.navbar a:hover {
+  color: #fff;
+}
