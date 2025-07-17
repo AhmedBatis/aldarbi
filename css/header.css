@@ -4,7 +4,7 @@
   top: 0;
   left: 0;
   width: 100%;
-  height: var(--spacing-6-6); /* Check Settings @css/settings.css*/
+  height: 128px; /* Check Settings @css/settings.css*/
   background-color: rgba(var( --primary-blue-light), 0.59);  /* ✅ 59% opacity */
   padding: 10px 20px;
   box-sizing: border-box;
