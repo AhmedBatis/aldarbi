@@ -24,6 +24,8 @@
   align-items: center;
   width: 70%;
   margin: 0 auto;
+  direction: rtl;         /* already assumed from <html dir="rtl"> */
+  grid-auto-flow: dense;  /* optional: fills spaces more efficiently */
 }
 
 .aldarbi-logo {
