@@ -22,7 +22,7 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  width: 52%;
+  width: 70%;
   margin: 0 auto;
 }
 
@@ -71,7 +71,7 @@
 
 
 
-@media (max-width: 1024px) {
+@media (min-width: 1920px) {
 .navbar {
   font-size: 15px;
   /* add some margin for navbar to control its place */
