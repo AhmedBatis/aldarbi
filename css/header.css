@@ -29,7 +29,7 @@
 }
 
 .aldarbi-logo {
-  grid-column: 1 / span 5;
+  grid-column: 1 / span 3;
   justify-self: center;
 }
 
@@ -42,7 +42,7 @@
 /* Navbar */
 
 .navbar {
-  grid-column: 5 / span 5; /* Occupies columns 8 to 13 */
+  grid-column: 4 / span 5; /* Occupies columns 8 to 13 */
   justify-self: start;              /* Align the navbar to the right inside its grid cell */
   font-family: "Almarai", sans-serif;
   font-weight: 700;
