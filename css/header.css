@@ -1,15 +1,8 @@
-/* Tablet - portrait only */
-@media (min-width: 600px) and (max-width: 1024px) and (orientation: portrait) {
-  /* styles */
+@media (max-width: 1024px) {
   .navbar {
-  font-size: 18px !important;
-  /* add some margin for navbar to control its place */
-  margin-inline-end: 5% !important;
+    background: red; /* quick visual check */
+  }
 }
-  
-}
-
-
 
 
 
