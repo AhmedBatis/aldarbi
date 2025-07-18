@@ -29,6 +29,7 @@
 
 @media (min-width: 769px) {
   .mobile-nav {
+    font-family: "Almarai", sans-serif;
     display: none !important;
   }
 }
