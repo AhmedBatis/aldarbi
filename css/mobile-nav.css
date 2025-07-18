@@ -1,10 +1,11 @@
 .mobile-nav {
+  font-family: "Almarai", sans-serif;
   display: none;
   position: absolute;
   top: 128px; /* Same height as header */
   right: 0;
   width: 100%;
-  background-color: rgba(var(--primary-blue-dark), 0.95);
+  background-color: rgba(var(--primary-blue-dark), 1);
   padding: 20px 0;
   text-align: center;
   z-index: 99;
