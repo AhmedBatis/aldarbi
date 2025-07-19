@@ -132,6 +132,7 @@ body, html {
   justify-content: center;
   align-items: center;
   font-family: "Almarai", sans-serif;
+  font-size: 52px;
   font-weight: 700;
   color: white;
 }
@@ -143,6 +144,7 @@ body, html {
   justify-content: center;
   align-items: center;
   font-family: "Almarai", sans-serif;
+  font-size: 42px;
   font-weight: 700;
   color: white;
 }
