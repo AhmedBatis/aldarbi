@@ -1,7 +1,0 @@
-.div-identity-grid {
-  position: relative;
-  display: grid;
-  color: purple;
-  grid-template-rows: repeat(2, 1fr);
-  gap: 1rem;
-}
