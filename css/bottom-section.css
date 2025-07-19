@@ -1,4 +1,5 @@
 .div-identity-grid {
+  position: relative;
   display: grid;
   color: purple;
 }
