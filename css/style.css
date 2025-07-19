@@ -99,6 +99,7 @@ body, html {
 
 /* Bottom section inside hero */
 .div-bottom-section {
+  background-color: rgba(var( --primary-blue-light), 0.59);  /* ✅ 59% opacity */
   position: relative;   /* ✅ Makes it a stacking context */
   z-index: 1;           /* ✅ Places it above the video */
   display: flex;
