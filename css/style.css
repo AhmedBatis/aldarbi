@@ -276,6 +276,20 @@ body, html {
   border-radius: 2px;
 }
 
+/* Mobile (phones) */
+@media (max-width: 480px) {
+  .navbar {
+    display: none;            /* Hide full nav on small screens */
+  }
+
+  .hamburger-menu {
+    display: flex;            /* Show hamburger only on small screens */
+  }
+  
+}
+
+
+/* Tablets (iPads) */
 @media (max-width: 768px) {
   .navbar {
     display: none;            /* Hide full nav on small screens */
@@ -287,7 +301,11 @@ body, html {
 }
 
 
-/* Header */
+/* Small Laptops */
+@media (max-width: 1024px) {
+
+  
+}
 
 
 
