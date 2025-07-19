@@ -1,5 +1,6 @@
 .mobile-nav {
   display: none;
+  font-family: "Almarai", sans-serif;
   position: absolute;
   top: 128px; /* Same height as header */
   right: 0;
