@@ -4,12 +4,11 @@
 
 
 .div-statistics-section {
-  display: grid;
-  grid-template-columns: repeat(6, 1fr); /* 6 equal columns */
-  grid-template-rows: repeat(5, 1fr);    /* 5 equal rows */
-  gap: 10px; /* Optional spacing between grid items */
-
-  height: 100%;
   width: 50%;
-  background-color: rgba(145, 235, 126, 0.45);
+  height: 100%;
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  grid-template-rows: repeat(5, 1fr);
+  gap: 10px;
+  overflow: hidden; /* ✅ Prevents overflow */
 }
