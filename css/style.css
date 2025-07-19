@@ -121,6 +121,23 @@ body, html {
   overflow: hidden;
 }
 
+.div-business-name {
+  grid-column: 1 / -1;  /* Span all 6 columns */
+  grid-row: 2;          /* Place it on row 2 */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.div-business-activity {
+  grid-column: 1 / -1;  /* Span all 6 columns */
+  grid-row: 3;          /* Place it on row 3 */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
 
 .div-statistics-section {
   display: flex;
