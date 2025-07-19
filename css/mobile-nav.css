@@ -27,6 +27,11 @@
   font-size: 18px;
 }
 
+/* padding under the first menue mobile-nav */
+.li-dwn-paddng {
+  padding-bottom: 5px;
+}
+
 @media (min-width: 769px) {
   .mobile-nav {
     display: none !important;
