@@ -131,6 +131,9 @@ body, html {
   display: flex;
   justify-content: center;
   align-items: center;
+  font-family: "Almarai", sans-serif;
+  font-weight: 700;
+  color: white;
 }
 
 .div-business-activity {
@@ -139,6 +142,9 @@ body, html {
   display: flex;
   justify-content: center;
   align-items: center;
+  font-family: "Almarai", sans-serif;
+  font-weight: 700;
+  color: white;
 }
 
 
