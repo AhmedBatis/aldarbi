@@ -1,3 +1,4 @@
 .div-identity-grid {
+  display: grid;
   color: purple;
 }
