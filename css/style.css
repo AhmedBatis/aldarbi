@@ -140,3 +140,154 @@ body, html {
 }
 
 /* main */
+
+
+
+/* Identity */ 
+
+.div-site-title {
+  margin: 0 20px 0 0;
+}
+
+
+.div-statistics-section {
+  width: 50%;
+  height: 100%;
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  grid-template-rows: repeat(5, 1fr);
+  gap: 10px;
+  overflow: hidden; /* ✅ Prevents overflow */
+}
+/* Identtity */
+
+
+
+
+/* Header */
+/* ✅ Fixed Header */
+.div-header-section {
+  position: fixed;                           /* Always stick to top */
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 128px; /* Check Settings @css/settings.css*/
+  background-color: rgba(var( --primary-blue-light), 0.59);  /* ✅ 59% opacity */
+  padding: 10px 20px;
+  box-sizing: border-box;
+  z-index: 100;                              /* Float above all */
+  transition: background-color 0.3s ease;    /* Smooth transition */
+}
+
+/* ✅ Background color after scroll */
+.div-header-section.scrolled {
+  background-color: rgba(var( --primary-blue-dark), 1);  /* ✅ 100% opacity */
+}
+
+/* Header inner layout */
+.header-content {
+  display: grid;
+  grid-template-columns: repeat(10, 1fr); /* 15 equal fractions */
+  align-items: center;
+  width: 100%;
+  margin: 0 auto;
+  direction: rtl;         /* already assumed from <html dir="rtl"> */
+  grid-auto-flow: dense;  /* optional: fills spaces more efficiently */
+}
+
+.aldarbi-logo {
+  grid-column: 1 / span 3;
+  justify-self: center;
+}
+
+.injected-logo {
+  width: 100px;
+  height: auto;
+}
+
+
+/* Navbar */
+
+.navbar {
+  grid-column: 5 / span 3; /* Occupies columns 8 to 13 */
+  justify-self: center;              /* Align the navbar to the right inside its grid cell */
+  font-family: "Almarai", sans-serif;
+  font-weight: 700;
+  font-size: clamp(20px, 2vw, 24px); /* Responsive font size */
+  font-style: normal;
+}
+
+
+.navbar ul {
+  display: flex;
+  /*justify-content: flex-start;*/
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+
+.navbar li {
+  margin-left: 20px;
+}
+
+.navbar a {
+  text-decoration: none;
+  color: white;
+  font-weight: 600;
+}
+
+.navbar a:hover {
+  color: grey;
+}
+
+/* Hamburger Menu */
+
+.hamburger-menu {
+  display: none;              /* Hidden by default */
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 40px;
+  height: 32px;
+  cursor: pointer;
+  gap: 5px;
+  grid-column: 10 / span 2;
+  justify-self: start;
+}
+
+.hamburger-menu span {
+  display: block;
+  width: 100%;
+  height: 4px;
+  background-color: white;
+  border-radius: 2px;
+}
+
+@media (max-width: 768px) {
+  .navbar {
+    display: none;            /* Hide full nav on small screens */
+  }
+
+  .hamburger-menu {
+    display: flex;            /* Show hamburger only on small screens */
+  }
+}
+
+
+/* Header */
+
+
+
+
+
+/* color pallete */
+:root {
+  /* How to use this colors? */
+  /* example: background-color: rgba(var( --primary-blue-light), 0.1);  /* ✅ 10% opacity */
+  --primary-white-plain: 234, 235, 237;  /* No rgba(), just the values */
+  --primary-blue-dark: 40, 54, 127;  /* No rgba(), just the values */
+  --primary-blue-light: 16, 76, 186;  /* No rgba(), just the values */
+  --primary-grey-dark: 146, 147, 149;  /* No rgba(), just the values */
+  --primary-grey-light: 177, 182, 199;  /* No rgba(), just the values */
+}
+/* Color Pallete */
